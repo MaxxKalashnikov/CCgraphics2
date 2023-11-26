@@ -1,0 +1,15 @@
+﻿<Window x:Class="graphics2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:graphics2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="Grafic" HorizontalAlignment="Left" Height="297.449" Margin="60.703,37.503,0,0" VerticalAlignment="Top" Width="667.857" Background="#FFFFD7D7"/>
+        <Button x:Name="button1" Content="Запуск анимации" HorizontalAlignment="Left" Margin="60.703,359.24,0,0" VerticalAlignment="Top" Width="195.8" Height="36.76" Click="cmRun"/>
+        <Button x:Name="button2" Content="Очистить " HorizontalAlignment="Left" Margin="517.56,359.24,0,0" VerticalAlignment="Top" Width="211" Height="36.76" Click="cmClick"/>
+
+    </Grid>
+</Window>
